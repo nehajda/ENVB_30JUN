@@ -1,0 +1,24 @@
+# Properties for Services Registry Service / Routing and Version Configuration Service
+srs:
+  rootDirectory: configuration
+
+server:
+  
+  listener: 
+  #Controls whether api endpoint accepts HTTP or HTTPS
+    config: "HTTPS_Listener_config"
+    #config: "HTTP_Listener_config"
+    
+  https:
+    host: "0.0.0.0"
+    port: "9820"
+    tls:
+      keyStore:
+        path: "keystore.jks"
+        key:
+      trustStore:
+        path: "truststore.jks"
+        
+  http:
+    host: "0.0.0.0"
+    port: "9821"
