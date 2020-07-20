@@ -1,0 +1,25 @@
+{
+  "config": {
+    "auth": {
+      "clientId": "xxxxxx",
+      "authority": "https://xxxxx.b2clogin.com/xxxxx.onmicrosoft.com/b2c_1a_signin",
+      "validateAuthority": false,
+      "redirectUri": "http://localhost:3000/",
+      "postLogoutRedirectUri": "http://localhost:3000/",
+      "navigateToLoginRequestUrl": true
+    },
+    "cache": {
+      "cacheLocation": "localStorage",
+      "storeAuthStateInCookie": false
+    },
+    "reactConfig": {
+      "popUp": false,
+      "consentScopes": [
+        "https://xxxxx.onmicrosoft.com/a8019956-0766-48dd-9d73-cadd1e704af5/access"
+      ],
+      "unprotectedResources": [],
+      "protectedResourceMap": [],
+      "extraQueryParameters": {}
+    }
+  }
+}
