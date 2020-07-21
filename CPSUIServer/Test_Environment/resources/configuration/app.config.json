@@ -1,11 +1,11 @@
 {
   "config": {
     "auth": {
-      "clientId": "xxxxxx",
-      "authority": "https://xxxxx.b2clogin.com/xxxxx.onmicrosoft.com/b2c_1a_signin",
+      "clientId": "a345c356-420f-4019-a037-e5119ac1ad50",
+      "authority": "https://jdacldsbxb2c.b2clogin.com/jdacldsbxb2c.onmicrosoft.com/b2c_1a_signin",
       "validateAuthority": false,
-      "redirectUri": "http://localhost:3000/",
-      "postLogoutRedirectUri": "http://localhost:3000/",
+      "redirectUri": "http://in2npdvdcssv04:3000/",
+      "postLogoutRedirectUri": "http://in2npdvdcssv04:3000/",
       "navigateToLoginRequestUrl": true
     },
     "cache": {
@@ -15,7 +15,7 @@
     "reactConfig": {
       "popUp": false,
       "consentScopes": [
-        "https://xxxxx.onmicrosoft.com/a8019956-0766-48dd-9d73-cadd1e704af5/access"
+        "https://jdacldsbxb2c.onmicrosoft.com/a8019956-0766-48dd-9d73-cadd1e704af5/access"
       ],
       "unprotectedResources": [],
       "protectedResourceMap": [],
