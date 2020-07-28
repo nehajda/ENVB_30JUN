@@ -4,8 +4,8 @@
       "clientId": "a345c356-420f-4019-a037-e5119ac1ad50",
       "authority": "https://jdacldsbxb2c.b2clogin.com/jdacldsbxb2c.onmicrosoft.com/b2c_1a_signin",
       "validateAuthority": false,
-      "redirectUri": "https://localhost:3000/",
-      "postLogoutRedirectUri": "https://localhost:3000/",
+      "redirectUri": "https://in2npdvdcssv04.dev.corp.local:3000/",
+      "postLogoutRedirectUri": "https://in2npdvdcssv04.dev.corp.local:3000/",
       "navigateToLoginRequestUrl": true
     },
     "cache": {
