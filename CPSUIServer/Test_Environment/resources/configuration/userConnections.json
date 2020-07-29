@@ -4,9 +4,9 @@
       "username": "Srishti.Srivastava@blueyonder.com",
       "connection": [
         {
-          "connectionName": "CPS01",
+          "connectionName": "CPSUI01",
           "protocol": "https",
-          "machineAddress": "192.168.1.1",
+          "machineAddress": "localhost",
           "portNumber": 9810,
           "apiName": "cps/api",
           "apiVersion": "v1"
