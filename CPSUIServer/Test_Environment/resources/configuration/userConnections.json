@@ -6,7 +6,7 @@
         {
           "connectionName": "CPS01",
           "protocol": "https",
-          "machineAddress": "localhost",
+          "machineAddress": "192.168.1.1",
           "portNumber": 9810,
           "apiName": "cps/api",
           "apiVersion": "v1"
