@@ -41,7 +41,7 @@ services:
     type: WMA
     replayPolicy:
       maxRetries: 6
-      retryIntervalMins: 10 
+      retryIntervalMins: 1
       retryIntervalMultiplier: 0.5
       maxRetryIntervalMins : 1
     replay:
