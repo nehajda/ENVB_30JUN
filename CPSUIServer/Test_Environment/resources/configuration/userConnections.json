@@ -10,6 +10,14 @@
           "portNumber": 9810,
           "apiName": "cps/api",
           "apiVersion": "v1"
+        },
+        {
+          "connectionName": "Development",
+          "protocol": "https",
+          "machineAddress": "192.168.1.1",
+          "portNumber": 9810,
+          "apiName": "cps/api",
+          "apiVersion": "v1"
         }
       ]
     }
