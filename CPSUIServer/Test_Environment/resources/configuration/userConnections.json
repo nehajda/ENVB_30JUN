@@ -15,7 +15,7 @@
           "connectionName": "CPSUI01",
           "protocol": "https",
           "machineAddress": "IN2NPDVDCSSV04",
-          "portNumber": 9810,
+          "portNumber": 8087,
           "apiName": "cps/api",
           "apiVersion": "v1"
         }
