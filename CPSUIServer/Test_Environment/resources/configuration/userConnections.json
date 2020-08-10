@@ -4,7 +4,7 @@
       "username": "Srishti.Srivastava@blueyonder.com",
       "connection": [
         {
-          "connectionName": "CPSUI01",
+          "connectionName": "CPSUI02",
           "protocol": "https",
           "machineAddress": "localhost",
           "portNumber": 9810,
