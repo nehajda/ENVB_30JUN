@@ -6,8 +6,8 @@
         {
           "connectionName": "CPSUI02",
           "protocol": "https",
-          "machineAddress": "localhost",
-          "portNumber": 9810,
+          "machineAddress": "IN2NPDVDCSSV04",
+          "portNumber": 8087,
           "apiName": "cps/api",
           "apiVersion": "v1"
         }
