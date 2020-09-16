@@ -13,11 +13,12 @@ server:
     host: "0.0.0.0"
     port: "9820"
     tls:
+      context: "TLS_Context"
+      #context: "TLS_Context_with_Trust"
       keyStore:
-        path: "keystore.jks"
-        key:
+        path: "https/keystore.jks"
       trustStore:
-        path: "truststore.jks"
+        path: "https/truststore.jks"
         
   http:
     host: "0.0.0.0"
