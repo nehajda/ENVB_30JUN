@@ -37,6 +37,48 @@ outboundEndpoints:
       value: "./outbound/ack"
     - name: "fileName"
       value: "ack-error.json"
+- name: STR
+  flow:
+    name: jmsOutboundFlow
+    parameters:
+    - name: "queue"
+      value: "MB-STR"
+- name: PALLETESTIMATOR-Q
+  flow:
+    name: jmsOutboundFlow
+    parameters:
+    - name: "queue"
+      value: "MB-PALLETESTIMATOR"
+- name: HOST
+  flow:
+    name: jmsOutboundFlow
+    parameters:
+    - name: "queue"
+      value: "MB-HOST"
+- name: TMA
+  flow:
+    name: jmsOutboundFlow
+    parameters:
+    - name: "queue"
+      value: "MB-TMA"
+- name: WMA
+  flow:
+    name: jmsOutboundFlow
+    parameters:
+    - name: "queue"
+      value: "MB-WMA"
+- name: ACK
+  flow:
+    name: jmsOutboundFlow
+    parameters:
+    - name: "queue"
+      value: "MB-ACK"
+- name: OMS
+  flow:
+    name: jmsOutboundFlow
+    parameters:
+    - name: "queue"
+      value: "MB-OMS"
 outboundMappings:
   - receiver: 'WMA.WEST|WMA.EAST'
     request: '*:*:*'
