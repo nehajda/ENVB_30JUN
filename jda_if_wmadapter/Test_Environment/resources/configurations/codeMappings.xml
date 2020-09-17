@@ -30,17 +30,7 @@
 		<code key="MEDIUM" value="M" />
 		<code key="LIGHT" value="L" />
 	</code-map>
-	<code-map name="ReceivedStatus" bi-directional="true">
-		<code key="ON_HAND" value="A" />
-		<code key="DAMAGED" value="D" />
-		<code key="EXPIRED" value="E" />
-		<code key="ON_HOLD" value="H" />
-		<code key="QUARANTINED" value="I" />
-		<code key="ALLOCATED_FOR_ORDER" value="R" />
-		<code key="RETURNED" value="RET" />
-		<code key="BLOCKED" value="S" />
-   </code-map>
-   <code-map name="InventoryStatusType" bi-directional="true">
+	<code-map name="InventoryStatusType" bi-directional="true">
 		<code key="AVAILABLE_FOR_SALE" value="A" />
 		<code key="CRITICAL_HOLD" value="C" />
 		<code key="DAMAGED" value="D" />
