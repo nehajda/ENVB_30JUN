@@ -24,40 +24,35 @@ services:
         #configType: http
         configType: https
         https:
-          port: "9930"
-          host: "localhost"
+          port: "9931"
+          host: "IN2NPDVDCSSV04.dev.corp.local"
         http:    
           port: "8085"
-          host: "localhost"
+          host: "IN2NPDVDCSSV04.dev.corp.local"
         path: /replayEndpoint
         basePath: /v2
         header:
           Accept: "application/json"
-          Content-Type: "application/json"
+          ContentType: "application/json"
           client_id: "xx"
           client_secret: "xx"
       
   WMA-GLOBAL:
     type: WMA
-    replayPolicy:
-      maxRetries: 6
-      retryIntervalMins: 1
-      retryIntervalMultiplier: 0.5
-      maxRetryIntervalMins : 1
     replay:
       request:
-        configType: http
+        configType: https
         #configType: http
         https:
-          port: "9930"
+          port: "9931"
           host: "IN2NPDVDCSSV04.dev.corp.local"
         http:    
-          port: "9931"
+          port: "9831"
           host: "IN2NPDVDCSSV04.dev.corp.local"
         path: /replayEndpoint
         basePath: /v2
         header:
           Accept: "application/json"
-          Content-Type: "application/json"
+          ContentType: "application/json"
           client_id: "xx"
           client_secret: "xx"
