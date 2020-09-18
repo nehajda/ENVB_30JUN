@@ -1,42 +1,7 @@
 !jmb-configuration-v1
 
-name: JMB
+name: JMB1
 outboundEndpoints:
-- name: notRouted
-  flow:
-    name: nullOutboundFlow          
-- name: WMA
-  flow:
-    name: fileOutboundFlow
-    parameters:
-    - name: "path"
-      value: "./outbound/test-output-wma"
-    - name: "fileName"
-      value: "outputMessageWMA.xml"
-- name: TMA
-  flow:
-    name: fileOutboundFlow
-    parameters:
-    - name: "path"
-      value: "./outbound/test-output-tma"
-    - name: "fileName"
-      value: "outputMessageTMA.json"
-- name: ACK.GLOBAL
-  flow:
-    name: fileOutboundFlow
-    parameters:
-    - name: "path"
-      value: "./outbound/ack"
-    - name: "fileName"
-      value: "ack.json"
-- name: LOC.DC0001
-  flow:
-    name: fileOutboundFlow
-    parameters:
-    - name: "path"
-      value: "./outbound/ack"
-    - name: "fileName"
-      value: "ack-error.json"
 - name: STR
   flow:
     name: jmsOutboundFlow
@@ -80,19 +45,22 @@ outboundEndpoints:
     - name: "queue"
       value: "MB-OMS"
 outboundMappings:
+  - receiver: 'HOST.GLOBAL'
+    request: '*:*:*'
+    outboundEndpoint: 'HOST'
+  - receiver: 'TMS.GLOBAL'
+    request: '*:*:*'
+    outboundEndpoint: 'TMA'
   - receiver: 'WMA.WEST|WMA.EAST'
     request: '*:*:*'
     outboundEndpoint: 'WMA'
-  - receiver: 'TMA.WEST|TMA.EAST'
-    request: '*:*:*'
-    outboundEndpoint: 'TMA'
   - receiver: 'LOC.DC0001'
     request: '*:*:*'
-    outboundEndpoint: 'LOC.DC0001'
-  - receiver: 'NOT.ROUTED'
+    outboundEndpoint: 'WMA'
+  - receiver: 'LOC.V0001'
     request: '*:*:*'
-    outboundEndpoint: 'notRouted'
-    - receiver: 'LOC.V0002'
+    outboundEndpoint: 'WMA'
+  - receiver: 'LOC.V0002'
     request: '*:*:*'
     outboundEndpoint: 'WMA'
   - receiver: 'LOC.DICKS'
@@ -209,4 +177,3 @@ outboundMappings:
   - receiver: 'ACK.GLOBAL'
     request: '*:*:*'
     outboundEndpoint: 'ACK'
- 
