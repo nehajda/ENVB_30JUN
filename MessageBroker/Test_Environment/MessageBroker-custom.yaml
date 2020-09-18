@@ -21,7 +21,7 @@ flow:
     file:
       state: "stopped"
     jmsAMQ:
-      state: "In2npdvdcssv06"
+      state: "started"
       checkConnectivity: true
     dp:
       state: "stopped"
@@ -96,7 +96,7 @@ server:
     config: "HTTPS_Listener_config"
     #config: "HTTP_Listener_config"  
   https:
-    host: "In2npdvdcssv06"
+    host: "localhost"
     port: "9910"
     tls:
       keyStore:
