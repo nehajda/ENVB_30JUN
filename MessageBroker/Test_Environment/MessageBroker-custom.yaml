@@ -97,7 +97,7 @@ server:
     #config: "HTTP_Listener_config"  
   https:
     host: "In2npdvdcssv06"
-    port: "9910"
+    port: "9820"
     tls:
       keyStore:
         path: "https/keystore.jks"
