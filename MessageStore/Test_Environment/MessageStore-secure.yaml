@@ -1,6 +1,6 @@
 MSDatabase:
-  user-secure: "MSGSTR_20202ENVB"
-  password-secure: "MSGSTR_20202ENVB"
+  user-secure: "MSGSTRENVB"
+  password-secure: "MSGSTRENVB"
 
 
 server:
