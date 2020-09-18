@@ -40,8 +40,8 @@ flow:
       state: "stopped"
       #checkConnectivity: false
     jmsAMQ:
-      state: "stopped"
-      checkConnectivity: false
+      state: "started"
+      checkConnectivity: true
     dp:
       state: "stopped"
       checkConnectivity: false
@@ -96,7 +96,7 @@ server:
     config: "HTTPS_Listener_config"
     #config: "HTTP_Listener_config"  
   https:
-    host: "localhost"
+    host: "In2npdvdcssv06"
     port: "9910"
     tls:
       keyStore:
@@ -193,8 +193,8 @@ sftpOutbound:
 httpOutboundRequest:
   requester: 
   #Controls whether to call an api with HTTP or HTTPS
-    #config: "HTTPS_Request_configuration"
-     config: "HTTP_Request_configuration"  
+    config: "HTTPS_Request_configuration"
+     #config: "HTTP_Request_configuration"  
   https:
     host: "127.0.0.1"
     port: "9910"
