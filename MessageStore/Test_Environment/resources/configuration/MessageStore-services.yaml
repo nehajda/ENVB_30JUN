@@ -24,7 +24,7 @@ services:
         #configType: http
         configType: https
         https:
-          port: "9931"
+          port: "9830"
           host: "IN2NPDVDCSSV04.dev.corp.local"
         http:    
           port: "8085"
@@ -44,7 +44,7 @@ services:
         configType: https
         #configType: http
         https:
-          port: "9931"
+          port: "9830"
           host: "IN2NPDVDCSSV04.dev.corp.local"
         http:    
           port: "9831"
