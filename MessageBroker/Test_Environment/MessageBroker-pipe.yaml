@@ -4,9 +4,9 @@ mb:
 #Please mention the correct queue type and then pass the appropriated properties.
       type: "JMS"
     vm:
-      state: "started"
-    jms:
       state: "stopped"
+    jms:
+      state: "started"
       checkConnectivity: false
       queueName: "MB_PIPE"
 ## Please uncomment the property and update the broker url      
