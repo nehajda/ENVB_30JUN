@@ -2,7 +2,7 @@ mb:
   pipe:
     queue:
 #Please mention the correct queue type and then pass the appropriated properties.
-      type: "VM"
+      type: "JMS"
     vm:
       state: "started"
     jms:
