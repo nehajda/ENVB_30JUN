@@ -21,8 +21,8 @@ flow:
     file:
       state: "stopped"
     jmsAMQ:
-      state: "stopped"
-      checkConnectivity: false
+      state: "In2npdvdcssv06"
+      checkConnectivity: true
     dp:
       state: "stopped"
       checkConnectivity: false
