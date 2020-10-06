@@ -9,7 +9,7 @@
  
 # Below reads as - For receiver list <Wma.EAST|WMA.WEST> , list of message types <itemMessage|locationMessage|orderMessage> should be converted to BYDM model.
 
-- 'Wma.EAST|WMA.WEST:itemMessage|locationMessage|orderMessage:BYDM'
+- 'Wma.EAST|LOC.DC0001|WMA.WEST:itemMessage|locationMessage|partyMessage|orderMessage:BYDM'
 
 # Below is wild card matching example. All messageTypes for WMA.EAST should be converted to GS1. 
 # This is a 1st match list. Ops need to make sure that wild card entry is appearing after named lists.
