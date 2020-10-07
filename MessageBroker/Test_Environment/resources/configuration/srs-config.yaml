@@ -25,7 +25,7 @@ outboundEndpoints:
     name: jmsOutboundFlow
     parameters:
     - name: "queue"
-      value: "MB-TMA-BYDM"
+      value: "MB-TMA"
 - name: WMA
   flow:
     name: jmsOutboundFlow
