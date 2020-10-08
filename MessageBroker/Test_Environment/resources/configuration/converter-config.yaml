@@ -18,5 +18,5 @@
 
 - 'LOC.*:*:BYDM'
 - 'TMS.GLOBAL:*:BYDM'
-- 'HOST.GLOBAL:*:BYDM'
+- 'HOST.GLOBAL:*:GS1'
 - 'ACK.GLOBAL:*:GS1'
