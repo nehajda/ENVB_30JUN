@@ -41,6 +41,8 @@ inbound:
       flow: 'flow-in-item-bydm' 
     - message: 'BYDM:party:BYDM 2020.2.0'
       flow: 'flow-in-party-bydm'
+    - message: 'BYDM:transferOrder:BYDM 2020.2.0'
+      flow: 'flow-in-transferOrder-bydm'
       
 outbound:
   responses:
