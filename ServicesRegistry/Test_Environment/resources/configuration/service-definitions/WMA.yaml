@@ -41,8 +41,8 @@ inbound:
       flow: 'flow-in-item-bydm' 
     - message: 'BYDM:party:BYDM 2020.2.0'
       flow: 'flow-in-party-bydm'
-    - message: 'BYDM:transferOrder:BYDM 2020.2.0'
-      flow: 'flow-in-transferOrder-bydm'
+    - message: 'BYDM:order:BYDM 2020.2.0'
+      flow: 'flow-in-order-bydm'
       
 outbound:
   responses:
@@ -84,4 +84,4 @@ outbound:
       flow: 'flow-out-warehouseOutboundInstructionMessage'
     - message: 'GS1:applicationReceiptAcknowledgementMessage:GS1_JDA 2019.1.0'
       flow: 'flow-out-applicationReceiptAcknowledgementMessage'
-    
+   
