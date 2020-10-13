@@ -51,7 +51,7 @@ outboundMappings:
   - receiver: 'TMS.GLOBAL'
     request: '*:*:*'
     outboundEndpoint: 'TMA'
-  - receiver: 'WMA.WEST|WMA.EAST'
+  - receiver: 'WMA.WEST|Wma.EAST'
     request: '*:*:*'
     outboundEndpoint: 'WMA'
   - receiver: 'LOC.DC0001'
