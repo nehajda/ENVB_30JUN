@@ -1,4 +1,4 @@
 !service-v1
 name: HOST.GLOBAL
-serviceDefinition: HOST-2020.1.0
+serviceDefinition: HOST-2019.1.0
 enabled: true
