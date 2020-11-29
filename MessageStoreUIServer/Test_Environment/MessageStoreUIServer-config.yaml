@@ -88,7 +88,7 @@ MSserver:
       context: "HTTPS_MS_Requester_TLS_Context"
       #context: "HTTPS_MS_Requester_TLS_Context_with_Trust"
       keyStore:
-        path: "https/keystore.jks"
+        path: "keystore.jks"
       trustStore:
-        path: "https/truststore.jks"
+        path: "truststore.jks"
         
