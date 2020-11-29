@@ -50,7 +50,7 @@ response:
       img_src:     "\"img-src 'self';\""
       frame_src:   "\"frame-src   ;\""
       # on which server it can make a connection request. it shoud contain self, liam and message store url only.
-      connect_src: "\"connect-src 'self' https://in2npdvdcssv04:9831 \""
+      connect_src: "\"connect-src 'self' https://in2npdvdcssv04:9830 \""
 
 
 # DataBase Config
