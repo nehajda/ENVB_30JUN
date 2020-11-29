@@ -28,9 +28,9 @@ server:
     port: "8085"
     tls:
       keyStore:
-        path: "keystore.jks"
+        path: "https/keystore.jks"
       trustStore:
-        path: "truststore.jks"
+        path: "https/truststore.jks"
     
 webcontent:
   path: "web"
@@ -88,7 +88,7 @@ MSserver:
       context: "HTTPS_MS_Requester_TLS_Context"
       #context: "HTTPS_MS_Requester_TLS_Context_with_Trust"
       keyStore:
-        path: "keystore.jks"
+        path: "https/keystore.jks"
       trustStore:
-        path: "truststore.jks"
+        path: "https/truststore.jks"
         
