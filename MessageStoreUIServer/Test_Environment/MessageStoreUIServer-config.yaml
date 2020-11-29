@@ -28,9 +28,9 @@ server:
     port: "8085"
     tls:
       keyStore:
-        path: "https/keystore.jks"
+        path: "keystore.jks"
       trustStore:
-        path: "https/truststore.jks"
+        path: "truststore.jks"
     
 webcontent:
   path: "web"
