@@ -3,8 +3,8 @@
 server:
   listener: 
     #Controls whether api endpoint accepts HTTP or HTTPS
-    #config: "HTTPS_Listener_config"
-    config: "HTTP_Listener_config"
+    config: "HTTPS_Listener_config"
+    #config: "HTTP_Listener_config"
 
     #Controls whether request accepts only Keystore or with Truststore
     context: "HTTPS_Listener_TLS_Context"
@@ -12,8 +12,8 @@ server:
 
   requestor:
     #Controls whether request accepts HTTP or HTTPS
-    #config: "HTTPS_Requestor_config"
-    config: "HTTP_Requestor_config"
+    config: "HTTPS_Requestor_config"
+    #config: "HTTP_Requestor_config"
 
     #Controls whether request accepts only Trustore or with keystore
     context: "HTTPS_Requestor_TLS_Context"
