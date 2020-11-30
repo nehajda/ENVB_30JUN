@@ -73,8 +73,8 @@ queryTimeout: "500"
 MSserver:
   requester: 
   #Controls whether MS api endpoint accepts HTTP or HTTPS
-    #config: "HTTPS_MS_Requester_config"
-    config: "HTTP_MS_Requester_config"
+    config: "HTTPS_MS_Requester_config"
+    #config: "HTTP_MS_Requester_config"
     
   http:
     host: "in2npdvdcssv04.dev.corp.local"
