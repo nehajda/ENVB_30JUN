@@ -1,3 +1,17 @@
 {
-  "userConnections": [ ]
+  "userConnections": [
+    {
+      "username": "Srishti.Srivastava@blueyonder.com",
+      "connection": [
+        {
+          "connectionName": "CPSUI",
+          "protocol": "https",
+          "machineAddress": "IN2NPDVDCSSV04.dev.corp.local",
+          "portNumber": 9810,
+          "apiName": "cps/api",
+          "apiVersion": "v1"
+        }
+      ]
+    }
+  ]
 }
