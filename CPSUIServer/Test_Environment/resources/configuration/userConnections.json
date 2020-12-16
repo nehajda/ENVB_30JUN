@@ -6,7 +6,7 @@
         {
           "connectionName": "CPSUI",
           "protocol": "https",
-          "machineAddress": "localhost",
+          "machineAddress": "in2npdvdcssv04.dev.corp.local",
           "portNumber": 9810,
           "apiName": "cps/api",
           "apiVersion": "v1"
