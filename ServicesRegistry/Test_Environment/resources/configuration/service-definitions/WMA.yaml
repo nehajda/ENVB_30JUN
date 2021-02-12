@@ -43,6 +43,8 @@ inbound:
       flow: 'flow-in-party-bydm'
     - message: 'BYDM:order:BYDM 2020.2.0'
       flow: 'flow-in-order-bydm'
+    - message: 'GS1:workOrderMessage:GS1_JDA 2020.3.0'
+      flow: 'flow-in-workOrder'
       
 outbound:
   responses:
